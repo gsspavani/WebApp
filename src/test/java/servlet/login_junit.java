@@ -35,7 +35,7 @@ public class login_junit {
 		request.addParameter("username", "guest");
 		request.addParameter("userpassword", "guest");
 		
-		obj.doPost(request, response);
+		obj.doPost(request, response); 
 		
 	}
 	
